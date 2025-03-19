@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap");
+
+@font-face {
+  font-family: Antonio;
+  src: url("../src/assets/fonts/Antonio-Regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-Antonio: Antonio, "sans-serif";
+  --font-Spartan: Spartan, "sans-serif";
+}
