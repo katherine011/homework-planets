@@ -1,7 +1,7 @@
 import React from "react";
 import { planets } from "../../planets";
-import Card from "../__atoms/card";
 import { useParams } from "react-router-dom";
+import Card from "../__atoms/card";
 
 const Footer = () => {
   const params = useParams();
